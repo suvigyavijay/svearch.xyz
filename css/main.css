@@ -221,7 +221,9 @@ a:link { text-decoration: none; color: inherit;} a:visited { text-decoration: no
 }
 
 .p4 {
-	background-color: #f39c12;
+	/*background-color: #f39c12;*/
+	background: linear-gradient(rgba(243, 156, 18,0.8), rgba(243, 156, 18,0.8)), url(../img/bg4.jpg);
+	background-size: cover;	
 }
 
 .p5 {
@@ -232,7 +234,16 @@ a:link { text-decoration: none; color: inherit;} a:visited { text-decoration: no
 }
 
 .p6 {
-	background-color: #e74c3c;
+	background-color: #221f28;
+	padding: 0;
+/*	background: url(../img/bg6.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;*/
+}
+
+.p6 img {
+	width: 100%;
 }
 
 .footer {
